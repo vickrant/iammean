@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Debtfetchr</title>
+<!-- <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script> -->
+</head>
+
+<body>
+<div class="wrapper">
+{{result.details.messages}}
+  <header class="bs-docs-nav navbar navbar-static-top" id="top">
+    <div class="container">
+      <div class="navbar-header">
+        <button aria-controls="bs-navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-navbar" data-toggle="collapse" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a href="" class="navbar-brand"><img src="img/logo.png" alt="" title="Bedtfetchr" /></a> </div>
+        
+        
+      <nav class="navbar-collapse collapse" id="bs-navbar" aria-expanded="false" style="height: 1px;">
+        <ul class="nav navbar-nav pull-right">
+          <li class="active"> <a href="">Home</a> </li>
+          <li> <a href="">How it works</a> </li>
+          <li><a href="">Products</a></li>
+          <li> <a href="">Why us</a> </li>
+          <li> <a href="">Calculator</a> </li>
+          <li> <a href="">Contact</a> </li>
+          <li> <a href="">Sign In</a> </li>
+          <li> <a href="">Sign Up</a> </li>
+          <li class="cart-img"> <a href=""><img src="img/cart-icn.png" alt="" /></a> </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <section class="signup-box">
+  <div class="container">
+  <h1>Sign Up</h1>
+  <div class="row">
+          <form class="col-xs-12 control_margin cntnt-box" ng-submit="signupformsubmit()">
+		    <div class="row">
+			<h6>Your Details</h6>
+			<div class="form-group col-xs-12 col-sm-6">
+             <input  class="form-control" placeholder="Email Address" type="text">
+             </div>              
+            <div class="form-group col-xs-12 col-sm-6">
+                <input type="text" class="form-control" placeholder="Choose Password">
+              </div>
+            </div>
+            
+            <div class="row">
+			<div class="form-group col-xs-12 col-sm-6">
+             <input  class="form-control" placeholder="Company Name" type="text">
+             </div>              
+            <div class="form-group col-xs-12 col-sm-6">
+                <input type="text" class="form-control" placeholder="Company Contact Name">
+              </div>
+            </div>
+			
+			<div class="row">
+			<div class="form-group col-xs-12 col-sm-6">
+                <input class="form-control" placeholder="ABN" type="text">
+              </div> 
+			  
+				<div class="form-group col-xs-12 col-sm-6">
+                
+                 <select class="form-control">
+                  <option value="0">Nature of Business</option>
+                  <option value="1">Option 1</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                </select></div>
+               
+              
+              </div>  
+			  
+				<div class="row">
+				<div class="form-group col-xs-12 col-sm-6">
+                <input class="form-control" placeholder="BSB" type="text">  
+              </div>  
+			  <div class="form-group col-xs-12 col-sm-6">
+                <input class="form-control" placeholder="Account Number" type="text">
+              </div> 
+            </div>
+			
+			<div class="row">
+			<h4>Address</h4>
+			<div class="form-group col col-xs-12 col-sm-2">
+                <input class="form-control" placeholder="Number" type="text">
+            </div>
+			<div class="form-group col-xs-12 col-sm-2">
+                <input class="form-control" placeholder="Street" type="text">
+            </div>
+			<div class="form-group col-xs-12 col-sm-3">
+                <input class="form-control" placeholder="City" type="text">
+            </div>
+			<div class="form-group col-xs-12 col-sm-3">
+                <input class="form-control" placeholder="State" type="text">
+            </div>
+			<div class="form-group col-xs-12 col-sm-2">
+                <input class="form-control" placeholder="Postcode" type="text">
+            </div>
+				
+            </div>
+			
+			<div class="row">
+			<div class="form-group col-xs-12 col-sm-4">
+                <input class="form-control" placeholder="Main phone number" type="text">
+              </div>   
+			<div class="form-group col-xs-12 col-sm-4">
+                <input class="form-control" placeholder="Mobile Number" type="text">
+              </div>     
+            </div>         
+                     <input type="submit" id="submit" value="Sign Up" />     
+          </form>
+			
+			
+        </div>
+     
+  
+  <div class="signup-btn-box">
+ 
+  <a class="btn" style="background:#21bbd1; border:none; color:#fff; margin-top:30px;">Sign Up</a>
+  </div>
+        
+  </div>
+  </section>
+  
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+        <h2><img src="img/logo_white.png" alt="" /></h2>
+        <div class="row">
+        <div class="col-md-3">
+          <ul>
+            <li><a href="">Homepage</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Contact US</a></li>
+            <li><a href="">Sign In / Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul>
+            <li><a href="">How It Works</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 ftr-info-main">
+          <ul>
+            <li><a href="">Call for any enquiry</a></li>
+            <li><a href="">995599559955</a></li>
+            <li><a href=""><img src="img/social_icoin.png" alt="" /></a></li>
+            <li><a href="">info@debtfetch.com</a></li>
+          </ul>
+        </div>
+        </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="newsleter-box">
+          <h4>Sign up to our newsletter</h4>
+          <input type="text" placeholder="Your Name" />
+          <input type="text" placeholder="Your Name" />
+          <button type="submit" value="">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+</div>
+</body>
+</html>

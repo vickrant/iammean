@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<base href="/">
+
+	<title>ACJV</title>
+	<base href="/">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+    <!-- custom styles -->
+
+	<!-- JS -->
+    <script src="libs/jquery/dist/jquery.js"></script>
+    <script src="libs/angular/angular.js"></script>
+    <script src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.6.0/angular-resource.js"></script> -->
+
+    <script src="https://unpkg.com/angular-toastr/dist/angular-toastr.tpls.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/angular-toastr/dist/angular-toastr.css" />
+  
+
+    <script src="js/helpers.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/constants.js"></script>
+
+		<!-- ANGULAR CUSTOM CONTROLLERS -->
+	<script src="js/controllers/HomeCtrl.js"></script>
+	<script src="js/controllers/AuthCtrl.js"></script>
+
+
+		<!-- ANGULAR CUSTOM DIRECTIVES -->
+	<script src="js/directives/abc.js"></script>
+
+
+	<!-- ANGULAR CUSTOM SERVICES -->
+    <script src="js/services/AuthService.js"></script>
+	<script src="js/routes.js"></script>
+</head>
+<body ng-app="acjv" >
+<div class="container-fluid" >
+<!-- ANGULAR DYNAMIC CONTENT -->
+	<div ui-view ></div>
+
+</div>
+</body>
+</html>
